@@ -15,6 +15,7 @@ class TranspositionCipher:
 
         return encrypted_text
 
+
     def decrypt(self, text, key):
         decrypted_text = [''] * key
         row, col = 0, 0
